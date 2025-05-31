@@ -8,6 +8,7 @@
         <p id="addition"></p>
 
         <script>
+            document.getElementById("addition").innerHTML=addNumbers(10, 20);
             addNumbers(10, 7);
 
             function changeText(){
@@ -19,7 +20,7 @@
             }
 
             function addNumbers(num1, num2){
-                document.getElementById("addition").innerHTML=num1+num2;
+                return num1 + num2;
             }
         </script>
     </body>
